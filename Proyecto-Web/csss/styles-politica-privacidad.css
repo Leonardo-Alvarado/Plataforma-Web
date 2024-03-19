@@ -1,0 +1,454 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #f96332;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #f63507;
+  }
+  
+  /* Estilos específicos para cada sección */
+  .seccion-destacada,
+  .seccion-beneficios,
+  .seccion-testimonios,
+  .seccion-registro {
+    margin-bottom: 40px;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .contenedor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    font-size: 18px;
+  }
+  
+  .seccion-usuario {
+    display: flex;
+    align-items: center;
+  }
+  
+  .seccion-usuario a {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff; /* Cambio del color del texto a blanco */
+  }
+  
+  .contenedor-header nav ul li a {
+    color: #fff; /* Cambio del color del texto a blanco */
+    text-decoration: none;
+    transition: color 0.3s; /* Agrega una transición para suavizar el cambio de color */
+  }
+  
+  .contenedor-header nav ul li a:hover {
+    color: #f96332; /* Mantenimiento del efecto de color naranja al pasar el cursor */
+  }
+  
+  .seccion-usuario a {
+    color: #fff; /* Cambio del color del texto a blanco */
+    text-decoration: none;
+    transition: color 0.3s; /* Agrega una transición para suavizar el cambio de color */
+  }
+  
+  .seccion-usuario a:hover {
+    color: #f96332; /* Mantenimiento del efecto de color naranja al pasar el cursor */
+  }
+  
+  /* Estilos para la sección destacada */
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease; /* Transición de la animación */
+  }
+  
+  .card img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .seccion-enlaces a {
+    color: #fff; /* Cambia el color del texto a blanco */
+    text-decoration: none;
+    transition: color 0.3s; /* Agrega una transición para suavizar el cambio de color */
+  }
+  
+  .seccion-enlaces a:hover {
+    color: #f96332; /* Cambia el color del texto a naranja al pasar el cursor */
+  }
+  
+  .seccion-enlaces ul,
+  .seccion-redes-sociales ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .seccion-enlaces ul li,
+  .seccion-redes-sociales ul li {
+    margin-bottom: 10px;
+  }
+  
+  .seccion-redes-sociales ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .seccion-redes-sociales ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .seccion-redes-sociales ul li a {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  .seccion-redes-sociales ul li a:hover {
+    color: #ddd;
+  }
+  
+  /* Estilos para centrar la sección */
+  .seccion-registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh; /* Ajustar según el diseño */
+    flex-direction: column;
+  }
+  
+  .card a {
+    background-color: #f96332;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+  }
+  
+  .card a:hover {
+    background-color: #f63507;
+  }
+  
+  /* Estilos para la sección de beneficios */
+  .seccion-beneficios {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center; /* Centra el contenido */
+  }
+  
+  .seccion-beneficios h2 {
+    margin-bottom: 50px; /* Aumenta el espacio inferior */
+    font-size: 2em; /* Ajusta el tamaño del título */
+    color: #333; /* Cambia el color del texto */
+  }
+  
+  .seccion-beneficios ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+  }
+  
+  .seccion-beneficios li {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 18px; /* Ajusta el tamaño del texto */
+    transition: transform 0.3s ease; /* Agrega transición al movimiento */
+  }
+  
+  .seccion-beneficios li:hover {
+    transform: translateX(10px); /* Mueve el texto hacia la derecha al pasar el mouse */
+    color: #f96332; /* Cambia el color del texto al naranja al pasar el mouse */
+  }
+  
+  .seccion-beneficios li a {
+    color: inherit; /* Hereda el color del texto del contenedor */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    transition: color 0.3s ease; /* Agrega transición al cambio de color del texto */
+  }
+  
+  .seccion-beneficios li a:hover {
+    color: #f96332; /* Cambia el color del texto al naranja al pasar el mouse */
+  }
+  
+  
+  /* Estilos para los testimonios */
+  .seccion-testimonios {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .testimonio {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .testimonio:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  
+  .testimonio p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonio strong {
+    display: block;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  
+  .contenedor-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .seccion-informacion,
+  .seccion-enlaces,
+  .seccion-redes-sociales {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .seccion-informacion h3,
+  .seccion-enlaces h3,
+  .seccion-redes-sociales h3 {
+    margin-bottom: 20px;
+  }
+  
+  .seccion-informacion p,
+  .seccion-enlaces ul,
+  .seccion-redes-sociales ul {
+    margin-bottom: 20px;
+  }
+  
+  .seccion-registro a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f96332; /* Color naranja */
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Espacio entre el texto y el botón */
+  }
+  
+  .seccion-registro a:hover {
+    background-color: #f63507; /* Cambio de color al pasar el mouse */
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
+  /* Ajustes para los textos que se pegan en el borde izquierdo */
+  h2,
+  .seccion-registro h2,
+  .seccion-beneficios h2 {
+    padding-left: 20px; /* Agrega espacio a la izquierda de los títulos */
+  }
+  
+  .seccion-registro p,
+  .seccion-beneficios ul li {
+    padding-left: 20px; /* Agrega espacio a la izquierda de los párrafos y elementos de lista en estas secciones */
+  }
+  
+  /* Ajustes para el botón de registro */
+  .seccion-registro a {
+    margin-left: 20px; /* Ajusta el espacio a la derecha del botón */
+  }
+  
+  /* Animación para tarjetas */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .card {
+    animation: fadeInUp 0.5s ease both; /* Animación al aparecer */
+  }
+  
+  /* Estilos para la sección de política de privacidad */
+  .seccion-politica-privacidad {
+    background-color: #f9f9f9;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Estilos para los títulos */
+  .seccion-politica-privacidad h2,
+  .seccion-politica-privacidad h3 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Estilos para los párrafos */
+  .seccion-politica-privacidad p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  /* Estilos para las listas */
+  .seccion-politica-privacidad ul {
+    padding-left: 20px;
+  }
+  
+  .seccion-politica-privacidad ul li {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  /* Estilos para las secciones animadas */
+  .seccion-politica-privacidad .animated-section {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .seccion-politica-privacidad .animated-section.fade-in {
+    opacity: 1;
+  }
+  
+  /* Estilos para las listas animadas */
+  .seccion-politica-privacidad .animated-list li {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .seccion-politica-privacidad .animated-list li.slide-in-left {
+    animation: slideInLeft 0.5s ease forwards;
+  }
+  
+  .seccion-politica-privacidad .animated-list li.slide-in-right {
+    animation: slideInRight 0.5s ease forwards;
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
